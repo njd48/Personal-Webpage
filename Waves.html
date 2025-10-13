@@ -40,6 +40,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 
+
 <!-- minus-oneth Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
 
@@ -63,6 +64,80 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
   </div>
 </div>
+
+<!-- 
+    -->
+    <hr>
+    <!-- --------------------------------------------------------------------------- -->
+    <hr>
+    <!-- 
+-->
+
+
+<!-- minus-zero.5 Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+
+  <div class="w3-content">
+
+	<h1>Evaluations and Metrics on Derivative Financial Assets</h1>
+
+      <h5 class="w3-padding-32">Implied Volatility of European Call Options</h5>
+        
+<!-- <div class="w3-third w3-center"> -->
+     
+	 
+    <!-- </div> -->
+    <div class="w3-twothird">
+      
+            
+        <p class="w3-text-grey"> 
+          European call options are contracts that give the holder the right to purchase a stock at an agreed 
+          upon expiration date, at a pre-agreed upon price, called the "strike price" K. An investor can profit 
+          from holding a call option, if the stock price, S, is greater than the strike at expiry. 
+
+          <br><br>
+          What you see pictured here is the calculated implied volatility, (often denoted, σ) of the general mills stock. 
+          Observe, for a slice of constant T, we have the characteristic U-shaped 
+          <a href="https://en.wikipedia.org/wiki/Volatility_smile"> "volatility smile" </a>  in the M=S/K variable. 
+          In the flatter regions, around T≥0.8, local hills and spikes are considered points of interest, and may be targets 
+          for investigation of mispriced options.  
+          
+          <br><br>
+          This study is carried out on an options chain declared on General Mills (ticker symbol GIS). 
+          You can immediately view a table of all such options being traded on the market on yahoo finance.
+
+          <br><br>
+
+          Volatility is a tricky component which is part of a simplified model that treats the stock price as a 
+          compound brownian motion process. It is therefore not an observable quantity, and in practice a stock will 
+          not obey this drift-diffusion behavior over long periods of time. We can, however, estimate a meaningful 
+          value by solving the Black-Scholes formula numerically for the unknown σ. This framework essentially treats the prices C
+          as market signals which implicitly reveal the opinions of traders as to the volatility of the underlying stock.
+          Our solution will find strongly varying values of σ for each option, which we refer to as "implied volatility".
+          Assigning a volatility to each option seems counterintuitive since we discussed that volatility is rather a 
+          property of the underlying asset. However, it also signals how much the market price of the option is deviating 
+          from that of Black-Scholes. We also find that market demand drives up both the price and the volatility. 
+          Implied volatility is an important metric for hedge funds who desire to profit from irregularly priced options.
+
+
+            <br><br>
+            
+            <a href="subpages_projects/implied_volatility_surface.html"> View my calculations in detail</a>, 
+            <br>
+            <a href="files_Waves/implied_volatility_surface.zip">download my python codes  here</a>.    
+          </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="files_Waves/implied_vol.png" style="width:410px;height:307px;">
+    </div>
+    <!-- </div> -->
+
+
+
+  </div>
+</div>
+
 
 <!-- 
     -->
